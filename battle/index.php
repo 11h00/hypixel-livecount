@@ -21,7 +21,7 @@
 	<br>
 	<section id="conam2">
 		<div class="useudiv">
-			<img src="img/me.jpg" class="imapouri" width="130">
+			<img alt="ima de prifile mai bon la" src="img/me.jpg" class="imapouri" width="130">
 			<h1 id="posts" class="livecounttextdemerde2">mathias777 :</h1>
 			<div id="mathiasscorecount" class="odometer littledemerde">0</div>
 		</div>
