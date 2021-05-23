@@ -10,6 +10,7 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<meta name="robot" content="noindex, nofollow">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>hypixel battle</title>
 	<script src="js/livecount.js"></script>
 	<script src="js/odometer.js"></script>

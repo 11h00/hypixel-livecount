@@ -41,7 +41,7 @@ body {
 .odometer {
 	position: relative;
 	font-family: mathias;
-	font-size: 65px;
+	font-size: 5vw;
 	font-weight: 600;
 	color: white;
 	width: 100%;
