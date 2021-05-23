@@ -1,0 +1,100 @@
+:root{
+  /* linear-gradient(DEGREE, START COLOR, END COLOR, ECT...*/
+  --transsecond: 4s;
+  --livecountdiv_background: #11111122;
+  --livecountdiv_borders: solid 2px #11111122;
+  --darkmode_background: black;
+  --feature_button: rgb(153, 160, 79);
+  --lightmode_background: linear-gradient(217deg, rgba(166, 55, 55, 0), rgba(255,0,0,0)), linear-gradient(127deg, rgb(206 0 0 / 93%), rgba(0,255,0,0)), linear-gradient(336deg, rgb(11 0 103), rgba(0,0,255,0));
+}
+@keyframes mathias{
+  from{
+    border: solid blue;
+  }
+  to{
+    border: solid skyblue;
+  }
+}
+
+@keyframes mathias_friend{
+  from{
+    border: solid green;
+  }
+  to{
+    border: solid rgb(62, 255, 62);
+  }
+}
+@font-face{
+font-family: mathias;
+src: url(futura.woff);
+}
+body {
+	background: var(--lightmode_background);
+	background-attachment: fixed;
+}
+.usernametext{
+  color: white;
+  text-align: center;
+  font-family: mathias;
+  line-height: 0;
+}
+.odometer {
+	position: relative;
+	font-family: mathias;
+	font-size: 65px;
+	font-weight: 600;
+	color: white;
+	width: 100%;
+  text-align: center;
+	line-height: 1em;
+  display: unset;
+}
+.soundbutton{
+  text-transform: uppercase;
+  outline: 0;
+  background: #FF0000;
+  width: 30%;
+  border: 0;
+  padding: 10px;
+  font-family: mathias;
+  color: #FFFFFF;
+  font-size: 30px;
+  cursor: pointer;
+}
+.livecounttextdemerde{
+  color: white;
+  text-align: center;
+  font-family: mathias;
+  font-size: 30px;
+}
+.livecounttextdemerde2{
+  color: white;
+  text-align: center;
+  font-family: mathias;
+  font-size: 20px;
+}
+#conam{
+  display: flex;
+}
+#conam2{
+  display: flex;
+}
+.imapouri{
+  margin-top: 10px;
+  border: solid blue;
+}
+.imapourifrined{
+  margin-top: 10px;
+  border: solid rgb(38, 192, 0);
+}
+.useudiv{
+  width: 99%;
+  margin: 3px;
+  border : var(--livecountdiv_borders);
+  text-align: center;
+	background : var(--livecountdiv_background);
+}
+#gapcount{
+  font-size: 100px;
+  width: 100%;
+}
