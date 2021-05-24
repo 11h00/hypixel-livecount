@@ -45,7 +45,7 @@ let calcTotalScore = (playerStat) => {
 	Object.keys(playerStat.collection).forEach(xd => {
 		totalblockmined += playerStat.collection[xd] ?? 0;
 	})
-	return parseInt(((alchemy * 6) + (combat * 15) + (enchanting * 5) + (farming * 7) + (fishing * 4) + (foraging * 9) + ((mining + totalblockmined) * 11) + (runecrafting * 19) + (taming * 7) + (fairy_exchanges * 80) + ((souls_collected * fairy_exchanges) * 90) + souls) + (critical * (52) + (kills * 45) + (gifts_given * 84) + (gifts_received * 101) + ((auctionwon - auctions_bids) * 2) + totalblockmined))
+	return parseInt(((alchemy * 6) + (combat * 15) + (enchanting * 5) + (farming * 7) + (fishing * 4) + (foraging * 9) + ((mining + totalblockmined) * 11) + (runecrafting * 19) + (taming * 7) + (fairy_exchanges * 80) + ((souls_collected * fairy_exchanges) * 90) + souls) + (critical * (52) + (kills * 45) + (gifts_given * 84) + (gifts_received * 101) + ((auctionwon - auctions_bids) * 2) + totalblockmined) + dies * 5205)
 }
 function checkcookie() {
 	if (sonounon == true) {
